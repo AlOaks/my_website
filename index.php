@@ -1,1 +1,1 @@
-<?php include('./src/index.html'); ?>
+<?php include("./dist/index.html"); ?>
