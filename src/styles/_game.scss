@@ -1,0 +1,121 @@
+.welcome-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    h4 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    button {
+        border: 1px solid $blue;
+        background: none;
+        border-radius: 5px;
+        color: $white;
+        padding: 10px 30px;
+        font-size: 2rem;
+        cursor: pointer;
+        transition-duration: .5s;
+
+        &:hover {
+            background: $white;
+            color: $black;
+            transition-duration: .5s;
+        }
+    }
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+
+    .middleboard {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1000000;
+    }
+
+    .lets-go-again {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            margin-top: 0;
+        }
+    }
+
+    .go-btn {
+        height: 50px;
+        width: 100px;
+        background: none;
+        border: 1px solid $blue;
+        border-radius: 5px;
+        color: $white;
+        cursor: pointer;
+        transition-duration: .5s;
+
+        &:hover {
+            background: $white;
+            color: $black;
+            transition-duration: .5s;
+        }
+    }
+    
+    .side-board {
+        width: 50%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .choice-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .choice-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+
+    .opponent-options {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: 0;
+
+        .option-button {            
+            width: auto;
+            height: 70px;
+            cursor: pointer;
+            transition-duration: .5s;
+
+            &:hover {
+                opacity: .5;
+                transition-duration: .5s;
+            }
+        }
+    }
+}
