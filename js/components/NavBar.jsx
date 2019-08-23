@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            buttons: ['Experience', 'About', 'Skills', 'Contact', 'Play']
+            buttons: ['Experience', 'About', 'Skills', 'Contact', 'Play', 'Education']
         }
     }
 

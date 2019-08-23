@@ -133,9 +133,12 @@ header {
         padding: 10px;
         cursor: pointer;
         background: none;
-        transition-duration: .5s;
         font-size: .9rem;
         text-align: center;
+
+        @include desktop {
+            width: 19%;
+        }
 
         &:focus {
             outline: 0;
@@ -145,18 +148,18 @@ header {
     .nav-button {
         border: 1px solid $blue;
         border-bottom: none;
-        transition-duration: .5s;
         order: 1;
+        border-radius: 5px;
 
         &:hover {
-            width: 25%;
+            width: 20%;
             transition-duration: .5s;
-            box-shadow: 0 0 5px $blue;
+            box-shadow: 0 0 10px $blue;
         }
     }
 
     .active-view {
-        transition-duration: .5s;
+        // transition-duration: .5s;
         width: 50%;
         // border: 3px solid $blue;
         // border-bottom: black;

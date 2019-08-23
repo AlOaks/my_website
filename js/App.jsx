@@ -6,6 +6,7 @@ import Experience from './components/Experience.jsx';
 import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
 import Contact from './components/Contact.jsx';
+import Education from './components/Education.jsx';
 import Footer from './components/Footer.jsx';
 import Board from './components/RPS/Board.jsx';
 import Fade from 'react-reveal/Fade';
@@ -70,7 +71,7 @@ export default class App extends Component {
                         this.state.activeView === 'Play' ?
                             <Board />
                         :
-                        ''
+                            <Education />
                         }
                     </section>
                     <Footer />
