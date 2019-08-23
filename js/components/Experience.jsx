@@ -9,7 +9,7 @@ export default class Experience extends Component {
                 <div>
                     <div className="link-div">
                         <p>You will find all my previous experience in here and also, you can download a copy of my resume.</p>
-                        <a className="download-resume-link" href="../../assets/alberto-robles-resume-web-developer.pdf">Download Resume</a>
+                        <a className="download-resume-link" href="./assets/alberto-robles-resume-web-developer.pdf">Download Resume</a>
                     </div> 
                     <div className="experience-block">
                         <h3>Web Developer & Designer</h3>
