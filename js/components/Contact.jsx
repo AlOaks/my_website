@@ -6,7 +6,7 @@ export default class Contact extends Component {
     render() {
         return (
             <Fade>
-                <div>
+                <div className="contact-container">
                     <h2>Reach out to me!</h2>
                     <p>Either you have a business inquiry, or want to have a good chat over a coffee.
                          I'm always open to meet new people and make new friends.

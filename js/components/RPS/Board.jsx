@@ -87,7 +87,7 @@ export default class Board extends Component {
                             </div>
                         </Flip>
                         :
-                        <h1>Decisions... decisions!</h1>
+                        <h2>Decisions... decisions!</h2>
                         }
                     </div>
                     <div className="middleboard">
@@ -121,7 +121,8 @@ export default class Board extends Component {
                             <h2>Pick your weapon!</h2>
                         }
                         </div>
-                        {!this.state.randomizing ? 
+                    </div>
+                    {!this.state.randomizing ? 
                             <div className="opponent-options">
                                 {this.state.options.map((option, i) => {
                                     return <Option key={i} option={option} setChoice={this.setChoice}/>
@@ -129,8 +130,7 @@ export default class Board extends Component {
                             </div>
                         : 
                         '' 
-                        }
-                    </div>
+                    }
                 </div>
             </Fade>
         )
