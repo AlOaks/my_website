@@ -11,7 +11,7 @@ export default class Option extends Component {
         return (
             <Zoom>
                 <img 
-                src={`../../assets/icons/${this.props.option}.png`} 
+                src={`./assets/icons/${this.props.option}.png`} 
                 className="option-button" 
                 data-choice={this.props.option} 
                 onClick={this.props.setChoice} 

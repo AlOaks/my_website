@@ -416,11 +416,14 @@ body {
     background: none;
     border: 1px solid #371065;
     border-radius: 5px;
-    color: #e8e9eb;
     padding: 10px;
-    cursor: pointer; }
+    cursor: pointer;
+    color: #07020d;
+    transition-duration: .5s; }
     .app-body-welcome .enter:hover {
-      background: #371065; }
+      background: #371065;
+      color: #e8e9eb;
+      transition-duration: .5s; }
 
 header {
   display: flex;

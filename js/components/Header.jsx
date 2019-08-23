@@ -5,7 +5,7 @@ export default class Header extends Component {
         return (
             <header>
                 <div className="info-profile">
-                    <img className="avatar" src="/assets/profile.jpg" alt="my-avatar"/>
+                    <img className="avatar" src="./assets/profile.jpg" alt="my-avatar"/>
                     <h1>J. Alberto Robles</h1>
                     <h2>Professional Web Developer</h2>
                 </div>
