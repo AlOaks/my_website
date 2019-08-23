@@ -16,8 +16,8 @@ export default class App extends Component {
     constructor() {
         super();
         this.state = {
-            activeView: 'Play',
-            welcome: false
+            activeView: 'About',
+            welcome: true
         }
 
         this.changeView = this.changeView.bind(this);
